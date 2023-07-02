@@ -36,7 +36,7 @@ function Dashboard() {
     <div>
       <DashboardStyled>
         <InnerLayout>
-          <h1>All Transact</h1>
+          <h1>All Transactions</h1>
           <div className="stats-con">
             <div className="chart-con">
               <Chart />
@@ -88,7 +88,7 @@ function Dashboard() {
 
 const DashboardStyled = styled.div`
   width: 75vw;
-  height:150vh;
+  height:120vh;
   background: rgba(252, 246, 249, 0.78);
   border: 3px solid #ffffff;
   backdrop-filter: blur(4.5px);

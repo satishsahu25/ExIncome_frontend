@@ -55,7 +55,7 @@ function Income() {
 
 const IncomeStyled = styled.div`
      width:75vw;
-     height:100vh;
+     height:120vh;
     background: rgba(252, 246, 249, 0.78);
     border: 3px solid #FFFFFF;
     backdrop-filter: blur(4.5px);

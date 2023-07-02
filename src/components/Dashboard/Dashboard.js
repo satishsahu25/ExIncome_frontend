@@ -36,8 +36,7 @@ function Dashboard() {
     <div>
       <DashboardStyled>
         <InnerLayout>
-          <h1>All Transactions</h1>
-    fds
+          <h1>All Transact</h1>
           <div className="stats-con">
             <div className="chart-con">
               <Chart />

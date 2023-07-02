@@ -37,6 +37,7 @@ function Dashboard() {
       <DashboardStyled>
         <InnerLayout>
           <h1>All Transactions</h1>
+    fds
           <div className="stats-con">
             <div className="chart-con">
               <Chart />
@@ -88,13 +89,13 @@ function Dashboard() {
 
 const DashboardStyled = styled.div`
   width: 75vw;
-  height:120vh;
+  height:150vh;
   background: rgba(252, 246, 249, 0.78);
   border: 3px solid #ffffff;
   backdrop-filter: blur(4.5px);
   border-radius: 32px;
   display: flex;
-  overflow: auto;
+  // overflow: auto;
   margin-bottom: 2rem;
   .stats-con {
     display: grid;
